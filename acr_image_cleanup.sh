@@ -1,7 +1,5 @@
 #!/bin/bash
-# File: acr_cleanup.sh
-# Purpose: Delete Docker images older than N days from Azure Container Registry
-# Requirements: az CLI logged in with access to ACR
+
 
 # --- CONFIGURATION ---
 ACR_NAME="spotifyacr123"      

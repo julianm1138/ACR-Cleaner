@@ -17,3 +17,23 @@ Demonstrates automation and cloud resource management skills
 chmod +x acr_cleanup.sh
 ./acr_cleanup.sh
 ```
+
+# ACR Storage Monitor Script
+
+## Overview
+
+Bash script to monitor Azure Container Registry (ACR) repositories, track image counts, and report storage metrics. Demonstrates operational awareness, automation, and cloud resource management skills.
+
+## Key Features
+
+- Reports total images and oldest image per repository
+- Alerts if image count exceeds a configurable threshold
+- Logs output to `acr_monitor.log`
+- Can optionally trigger cleanup automatically
+
+## Usage
+
+```bash
+chmod +x acr_monitor.sh
+./acr_monitor.sh
+```
