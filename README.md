@@ -8,8 +8,7 @@ Bash Script that deletes old ACR docker images
 
 **Key Features:**
 Keeps the latest 3 images, deletes older ones automatically
-Logs operations to `acr_cleanup.log`
-Demonstrates automation and cloud resource management skills
+Logs operations to `acr_cleanup.log`.
 
 **Usage:**
 
@@ -22,7 +21,7 @@ chmod +x acr_cleanup.sh
 
 ## Overview
 
-Bash script to monitor Azure Container Registry (ACR) repositories, track image counts, and report storage metrics. Demonstrates operational awareness, automation, and cloud resource management skills.
+Bash script to monitor Azure Container Registry (ACR) repositories, track image counts, and report storage metrics.
 
 ## Key Features
 
